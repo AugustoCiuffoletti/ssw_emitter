@@ -1,0 +1,11 @@
+<h1> {{title}} </h1>
+
+<ul>
+  <li *ngFor='let city of cities' >
+    <button (click)="refreshTemperature(city)">{{city}}</button>
+  </li>
+</ul>
+
+<app-notifica [selezioneC]="selezione" > </app-notifica>
+
+
