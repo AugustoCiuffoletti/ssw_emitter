@@ -5,13 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { OpenweatherService } from './openweather.service';
 import { NotificaComponent } from './notifica/notifica.component';
-import { NewcityComponent } from './newcity/newcity.component';
+import { InputComponent } from './input/input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotificaComponent,
-    NewcityComponent
+    InputComponent
   ],
   imports: [
     BrowserModule,
